@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={6821495886}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Official website : <a href='https://dramaflixtamilofficial.blogspot.com'>DramaFlixTv Official {__version__}</a>\n○ Channel : @DramaFlixTamil\n○ Support Group : @DramaFlixTamil</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={6821495886}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Official website : <a href='https://dramaflixtamilofficial.blogspot.com'>DramaFlixTv Official</a>\n○ Channel : @DramaFlixTamil\n○ Support Group : @DramaFlixTamil</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
